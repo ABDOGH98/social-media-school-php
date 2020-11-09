@@ -1,5 +1,6 @@
 <?php
 session_start();
+$x = 1;
 include('./dbConnection.php');
 $idPoste = (int) $_GET['id_poste'];
 $idStudent = $_SESSION['id_student'];
