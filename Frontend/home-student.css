@@ -1,0 +1,97 @@
+.uk-border-circle {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.img_profile_margin {
+	margin-right: 30px;
+}
+.nav-border-style {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card-position {
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 20px;
+}
+
+.img-hight {
+	width: 100%;
+}
+
+.principal-color {
+	background-color: #0f3057;
+}
+
+.uk-card-body-padding {
+	display: flow-root;
+	padding: 0px 0px;
+}
+
+.text-color {
+	color: white;
+}
+
+.black-text-color {
+	color: black;
+}
+
+.poster-input-hight {
+	height: 200px;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+	width: 10px;
+}
+
+#inputPoster {
+	outline: none;
+	resize: none;
+	overflow: auto;
+	border: 0px;
+	border: none;
+}
+
+.margin-send-poste {
+	margin-left: -38px;
+}
+
+.add-to-post {
+	border-top: 1px #555;
+	padding-bottom: 5px;
+}
+
+.upload-img {
+	background-color: none;
+}
+
+.footer-back-color {
+	color: white;
+}
+
+.uk-icon-like svg path {
+	fill: red;
+	color: red;
+}
+
+.uk-icon-interested svg polygon {
+	fill: #ffe05d;
+	color: #ffe05d;
+}

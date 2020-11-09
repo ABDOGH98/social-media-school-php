@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navText {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-right: 70px;
+	margin-left: -70px;
+}
+.navbarTransparent {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.signinBack {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 70px;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+}
+#btnSignUp {
+	background-color: #e84a5f;
+	border: none;
+	color: white;
+	font-weight: 650;
+}
+
+.imgSIGNUP {
+	background: url(index_img/signup.png);
+	background-repeat: no-repeat;
+	height: 50vh;
+	width: 50vh;
+	background-position: center;
+	position: absolute;
+	top: 70px;
+	z-index: -1;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: none;
+	color: white;
+	text-align: center;
+	background-color: #1a1a2e;
+}
